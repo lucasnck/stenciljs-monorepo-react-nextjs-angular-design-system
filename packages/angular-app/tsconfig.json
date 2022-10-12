@@ -23,8 +23,8 @@
       "dom"
     ],
     "paths": {
-      "@ds/angular": [
-        "../angular"
+      "@ds/angular/*": [
+        "../angular/*"
       ],
       "@ds/core": [
         "../core"

@@ -1,16 +1,18 @@
 import resolve from 'rollup-plugin-node-resolve';
 import sourcemaps from 'rollup-plugin-sourcemaps';
 
+const packageJson = require("./package.json")
+
 export default {
-  input: 'dist-transpiled/index.js',
+  input: packageJson.main,
   output: [
     {
-      file: 'dist/index.esm.js',
+      file: packageJson.module,
       format: 'es',
       sourcemap: true
     },
     {
-      file: 'dist/index.js',
+      file: packageJson.main,
       format: 'commonjs',
       preferConst: true,
       sourcemap: true

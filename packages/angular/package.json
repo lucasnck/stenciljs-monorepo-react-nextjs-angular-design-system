@@ -1,6 +1,12 @@
 {
   "name": "@ds/angular",
   "version": "0.0.0",
+  "module": "dist/ds-library/fesm5.js",
+  "main": "dist/ds-library/fesm5.js",
+  "types": "dist/ds-library/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +15,7 @@
     "test": "ng test"
   },
   "private": true,
-  "dependencies": {
+  "peerDependencies": {
     "@angular/animations": "^14.1.0",
     "@angular/common": "^14.1.0",
     "@angular/compiler": "^14.1.0",
@@ -21,6 +27,10 @@
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
+  },
+  "dependencies": {
+    "@ds/core": "*",
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.1.3",

@@ -43,3 +43,5 @@ Thumbs.db
 
 .editorconfig
 .vscode
+
+/projects/ds-library/src/lib/stencil-generated

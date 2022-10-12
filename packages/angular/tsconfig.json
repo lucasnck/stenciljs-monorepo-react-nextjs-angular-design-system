@@ -29,6 +29,9 @@
       "angular-lib": [
         "dist/angular-lib"
       ],
+      "ds-library": [
+        "dist/ds-library"
+      ],
       "test": [
         "dist/test"
       ]

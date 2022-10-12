@@ -2,6 +2,7 @@
     "compilerOptions": {
       "baseUrl": ".",
       "allowUnreachableCode": false,
+      "skipLibCheck": true,
       "allowSyntheticDefaultImports": true,
       "declaration": true,
       "emitDecoratorMetadata": true,

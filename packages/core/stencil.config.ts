@@ -12,8 +12,8 @@ export const config: Config = {
     }),
     angularOutputTarget({
       componentCorePackage: '@ds/core',
-      directivesProxyFile: '../angular/src/lib/stencil-generated/components.ts',
-      directivesArrayFile: '../angular/src/lib/stencil-generated/index.ts',
+      directivesProxyFile: '../angular/projects/ds-library/src/lib/stencil-generated/components.ts',
+      directivesArrayFile: '../angular/projects/ds-library/src/lib/stencil-generated/index.ts',
     }),
     {
       type: 'dist-custom-elements',

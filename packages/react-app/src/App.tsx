@@ -2,11 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { MyComponent } from "@ds/react"
+import { PageTitle } from '@ds/react/dist';
 
 function App() {
   return (
     <div className="App">
       <MyComponent first='first' last='last' />
+
+      <PageTitle />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

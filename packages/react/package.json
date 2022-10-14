@@ -19,7 +19,7 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/"
+    "dist"
   ],
   "devDependencies": {
     "@types/jest": "23.3.9",

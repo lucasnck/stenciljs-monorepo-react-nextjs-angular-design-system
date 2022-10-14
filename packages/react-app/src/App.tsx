@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { MyComponent } from "@ds/react"
-import { PageTitle } from '@ds/react/dist';
+import { MyComponent, PageTitle } from '@ds/react/dist';
 
 function App() {
   return (

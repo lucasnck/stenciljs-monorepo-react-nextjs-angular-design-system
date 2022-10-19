@@ -1,5 +1,3 @@
-import React from "react";
-
 interface ITitle {
   children: (title: string) => React.ReactElement<{ title: string }>;
 }
@@ -17,9 +15,9 @@ export const PageTitle = () => {
     <div>
       <Title>
         {title => (
-          <div>
+          <h1>
             {title}
-          </div>
+          </h1>
         )}
       </Title>
     </div>

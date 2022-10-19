@@ -1,37 +1,41 @@
 {
-    "compilerOptions": {
-      "baseUrl": ".",
-      "allowUnreachableCode": false,
-      "skipLibCheck": true,
-      "allowSyntheticDefaultImports": true,
-      "declaration": true,
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "esModuleInterop": true,
-      "lib": ["dom", "es2015"],
-      "module": "es2015",
-      "moduleResolution": "node",
-      "noImplicitAny": true,
-      "noImplicitReturns": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
-      "outDir": "dist",
-      "removeComments": false,
-      "sourceMap": true,
-      "jsx": "react",
-      "target": "es2015",
-      "paths": {
-        "@ds/core": ["../core"],
-        "@ds/core/*": ["../core/*"]
-      }
-    },
-    "include": [
-      "src/**/*.ts",
-      "src/**/*.tsx"
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
     ],
-    "exclude": [
-      "**/__tests__/**"
-    ],
-    "compileOnSave": false,
-    "buildOnSave": false
-  }
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@ds/core": [
+        "../core"
+      ],
+      "@ds/core/*": [
+        "../core/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "**/__tests__/**"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}

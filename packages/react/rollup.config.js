@@ -4,7 +4,7 @@ import sourcemaps from 'rollup-plugin-sourcemaps';
 const packageJson = require("./package.json")
 
 export default {
-  input: "src/index.ts",
+  input: packageJson.source,
   output: [
     {
       file: packageJson.module,
